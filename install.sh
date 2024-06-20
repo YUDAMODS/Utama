@@ -13,7 +13,7 @@ installTheme(){
     echo "Installing theme..."
     cd /var/www/pterodactyl
     rm -r Utama
-    git clone https://github.com/ZassTdr/Utama.git
+    git clone https://github.com/YUDAMODS/Utama.git
     cd Utama
     rm /var/www/pterodactyl/resources/scripts/Utama.css
     rm /var/www/pterodactyl/resources/scripts/index.tsx
@@ -47,7 +47,7 @@ installThemeQuestion(){
 }
 
 repair(){
-    bash <(curl https://raw.githubusercontent.com/ZassTdr/Utama/main/repair.sh)
+    bash <(curl https://raw.githubusercontent.com/YUDAMODS/Utama/main/repair.sh)
 }
 
 restoreBackUp(){
@@ -60,11 +60,11 @@ restoreBackUp(){
     yarn build:production
     sudo php artisan optimize:clear
 }
-echo "RuztanXdOfficial"
+echo "YudaMods"
 echo "AUTO INSTALL THEME"
 echo ""
-echo "Wa: +62 821-9246-5791"
-echo "Nama: RuztanXD"
+echo "Wa: +62 831-5330-5709"
+echo "Nama: YudaMods"
 echo ""
 echo "[1] Install theme"
 echo "[2] Restore backup"
